@@ -11,6 +11,7 @@ $red: #db302f;
 $darkpink: #d22a4e;
 $lightblue: #03b9e4;
 $green: #62b813;
+$orange: #e76022;
 body{
     font-family: "Open Sans", arial;
     font-weight: 300 !important;
@@ -26,8 +27,26 @@ body{
     width: 10%;
     height: 35px;
 }
-.box1{
+.orangeColor{
+    background: $orange;
+}
+.blueColor{
     background: $blue;
+}
+.mustardColor{
+    background: $mustard;
+}
+.redColor{
+    background: $red;
+}
+.darkpinkColor{
+    background: $darkpink;
+}
+.lightblueColor{
+    background: $lightblue;
+}
+.greenColor{
+    background: $green;
 }
 .icons{
     font-size: 50px;
