@@ -1,1 +1,35 @@
-<div>default page template</div>
+<div fxLayout="row wrap" class="container" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false" fxFill>
+  <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <div fxLayout="row wrap" class="block" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <h1 class="header">
+          Start</h1>
+      </div>
+      <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" fxLayoutGap="5px" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+          <h3 class="header">
+            Martabak</h3><img imgSrc="/Web/Icons/hi.jpg" class="photo">
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+          <div class="header">
+            Gosong</div>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="column wrap" fxFlex="60" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="column wrap" class="height relative box1" fxFlex="30" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+            <mat-icon class="icons">home</mat-icon><span class="absolute text">
+                Show Desktop</span>
+          </div>
+          <div fxLayout="column wrap" class="height relative box1" fxFlex="30" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+            <mat-icon class="icons">settings</mat-icon><span class="absolute text">
+                Settings</span>
+          </div>
+        </div>
+      </div>
+      <div fxLayout="column wrap" fxFlex="30" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
+    </div>
+  </div>
+</div>

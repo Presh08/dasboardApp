@@ -2,3 +2,49 @@
 
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import "nDefaults.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+$blue: #1e90ff;
+$mustard: #dcb702;
+$red: #db302f;
+$darkpink: #d22a4e;
+$lightblue: #03b9e4;
+$green: #62b813;
+body{
+    font-family: "Open Sans", arial;
+    font-weight: 300 !important;
+}
+.container{
+    background: #0e6d38;
+    color: white;
+}
+.header{
+    font-weight: 300 !important;
+}
+.photo{
+    width: 10%;
+    height: 35px;
+}
+.box1{
+    background: $blue;
+}
+.icons{
+    font-size: 50px;
+    height: 50px !important;
+    width: 50px !important;
+}
+.text{
+    bottom: 5px;
+    left: 5px;
+    font-size: 13px;
+}
+.height{
+    height: 126px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
